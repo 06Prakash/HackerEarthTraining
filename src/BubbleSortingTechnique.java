@@ -5,6 +5,9 @@
  * Bubble sort is a simple sorting algorithm. This sorting algorithm is 
  * comparison-based algorithm in which each pair of adjacent elements is 
  * compared and the elements are swapped if they are not in order.
+ * In-place algorithm:
+ * ===================
+ *  - Since it doesn't require new array creation for sorting process
  * 
  * Here I am using bottom to top approach.
  *  - In which the largest element is pushed towards higher index.
@@ -14,11 +17,11 @@
  * 
  * Stable algorithm:
  * =================
- * Since the relative position of the same elements wont be changed.
+ *  - Since the relative position of the same elements wont be changed.
  * 
- * eg: in the below code the element 6 is repeated, after sorting the array, 6 at higher index
- * compared to the 6 at the lower index will retain its higher index relative to the 
- * one at lower index .
+ *  - eg: in the below code the element 6 is repeated, after sorting the array, 6 at higher index
+ * 			compared to the 6 at the lower index will retain its higher index relative to the 
+ * 			one at lower index .
  * 
  * Worst algorithm for sorting:
  * ===========================
