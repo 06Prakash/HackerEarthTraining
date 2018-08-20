@@ -37,7 +37,7 @@ public class BubbleSortingTechnique {
 		int[] array = { 6, 2, 3, 4, 5, 6, 3 };
 		// We have to take care of the last unsorted index every turn
 		for (int lastUnsortedIndex = array.length-1; lastUnsortedIndex > 0; lastUnsortedIndex--) {
-			// Then compare upto the last unsoreted index element
+			// Then compare upto the last unsorted index element
 			for (int i = 1; i <= lastUnsortedIndex; i++) {
 				// Place where swapping of element can be decided
 				for (int j = i - 1; (j < i) && (array[i] < array[j]); j++) {
