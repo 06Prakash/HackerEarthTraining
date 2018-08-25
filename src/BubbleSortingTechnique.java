@@ -1,3 +1,5 @@
+import Utils.ArrayUtilFunctions;
+
 /*
  * Bubble sorting technique theory
  * ===============================
@@ -46,7 +48,7 @@ public class BubbleSortingTechnique {
 				}
 			}
 		}
-		printArray(array);
+		ArrayUtilFunctions.printArray(array);
 	}
 
 	/*
@@ -61,16 +63,4 @@ public class BubbleSortingTechnique {
 		arr[x] = arr[y];
 		arr[y] = temp;
 	}
-	
-	/*
-	 * Method to print array separated by commas
-	 * 
-	 * @param[arr] integer array => array under test	
-	 */
-	private static void printArray(int[] arr) {
-		for(int element : arr) {
-			System.out.print(element + "  ");
-		}
-	}
-
 }

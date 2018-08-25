@@ -1,3 +1,5 @@
+import Utils.ArrayUtilFunctions;
+
 /*
  * Selection Sorting Technique
  * ===========================
@@ -41,7 +43,7 @@ public class SelectionSortingTechnique {
 			}
 		}
 		// Printing the elements in array
-		printArray(arr);
+		ArrayUtilFunctions.printArray(arr);
 	}
 
 	/*
@@ -57,16 +59,6 @@ public class SelectionSortingTechnique {
 		arr[y] = temp;
 	}
 	
-	/*
-	 * Method to print array separated by commas
-	 * 
-	 * @param[arr] integer array => array under test	
-	 */
-	private static void printArray(int[] arr) {
-		for(int element : arr) {
-			System.out.print(element + "  ");
-		}
-	}
 
 
 }

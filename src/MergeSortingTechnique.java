@@ -1,3 +1,5 @@
+import Utils.ArrayUtilFunctions;
+
 /*
  * Merge sorting is based on splitting arrays in to many arrays
  * and then merging them back to the fully sorted array.
@@ -23,14 +25,7 @@ public class MergeSortingTechnique {
 		int startIndex = 0;
 		int endIndex = input.length;
 		mergeSort(input, startIndex, endIndex);
-		printArr(input);
-	}
-
-	// Method to print array as needed
-	private static void printArr(int[] input) {
-		for (int element : input) {
-			System.out.print(element + "  ");
-		}
+		ArrayUtilFunctions.printArray(input);
 	}
 
 	// Main control area for performing the split and sorting of elements

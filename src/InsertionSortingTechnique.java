@@ -1,3 +1,5 @@
+import Utils.ArrayUtilFunctions;
+
 /*
  * Insertion Sorting Technique
  * ============================
@@ -38,18 +40,7 @@ public class InsertionSortingTechnique {
 			input[i] = newElement;
 		}
 		// Print the array
-		printArray(input);
-	}
-
-	/*
-	 * Method to print array separated by commas
-	 * 
-	 * @param[arr] integer array => array under test
-	 */
-	private static void printArray(int[] arr) {
-		for (int element : arr) {
-			System.out.print(element + "  ");
-		}
+		ArrayUtilFunctions.printArray(input);
 	}
 
 }
