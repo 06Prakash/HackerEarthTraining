@@ -1,4 +1,4 @@
-import Utils.ArrayUtilFunctions;
+import utils.ArrayUtilFunctions;
 
 /*
  * Merge sorting is based on splitting arrays in to many arrays

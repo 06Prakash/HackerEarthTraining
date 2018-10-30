@@ -1,4 +1,4 @@
-import Utils.ArrayUtilFunctions;
+import utils.ArrayUtilFunctions;
 
 /*
  * Selection Sorting Technique
