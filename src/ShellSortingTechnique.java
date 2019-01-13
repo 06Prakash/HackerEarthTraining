@@ -1,4 +1,4 @@
-import Utils.ArrayUtilFunctions;
+import utils.ArrayUtilFunctions;
 /*
  * Same as insertion sorting except that this sorting performs insertion sorting with some gap value
  * Formula to find the gap value:
